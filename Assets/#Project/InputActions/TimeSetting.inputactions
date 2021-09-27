@@ -1,0 +1,71 @@
+{
+    "name": "TimeSetting",
+    "maps": [
+        {
+            "name": "TimeSetting",
+            "id": "6455071b-1ab9-4de7-817c-34a10be673a4",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "ce70df2c-9f98-4b49-94dc-0e2704904c1b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "SpeedUp",
+                    "type": "Button",
+                    "id": "dc3fec51-129f-465a-9361-1a2688149a0d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "SpeedNormal",
+                    "type": "Button",
+                    "id": "b9850773-67c1-4f95-98da-1d483faa001f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f72cead9-24d1-40f3-8e3a-29a6bc942aa4",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e61a7e32-5bfc-4103-a837-e8b13d60dcdf",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpeedUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04a09a93-49f9-43b8-8d64-db749f4a5810",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpeedNormal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
