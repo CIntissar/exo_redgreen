@@ -10,7 +10,7 @@ public class TimeController : MonoBehaviour
     {
         if(context.performed)
         {
-            Debug.Log("PAUSE!");
+            
             if(Time.timeScale == 1f)
             {
                 Time.timeScale = 0f;
